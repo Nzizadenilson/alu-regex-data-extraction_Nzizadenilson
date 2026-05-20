@@ -1,0 +1,121 @@
+========================================================
+INTERNAL SUPPORT THREAD — EXTERNAL API RESPONSE LOG
+Generated: 2026-05-20 14:42:19 UTC
+========================================================
+
+From: no-reply@payments.example.org
+To: support-team@alueducation.com
+CC: admin@si.alueducation.com, jane.doe@alumni.alueducation.com
+
+Hello Team,
+
+We detected unusual retries from the integration service overnight.
+Please review the following customer activity before the next sync job.
+
+--------------------------------------------------------
+Customer Records
+--------------------------------------------------------
+
+Customer: Michael Brown
+Primary Email: michael.brown92@gmail.com
+Backup Email: mbrown@alueducation.com
+Phone: +1 (202) 555-0188
+Alt Phone: +250 788 456 123
+Website: https://michaelbrown.dev
+Preferred Meeting Time: 14:30
+
+Billing Card Used:
+4532-1234-5678-9012
+
+--------------------------------------------------------
+
+Customer: Sarah Niyonsaba
+Email: sarah.n@alumni.alueducation.com
+Website: http://portfolio.sarahspace.net
+Phone Number: (415) 555-2671
+Meeting Time: 9:45 AM
+
+Card Attempt:
+6011 9988 7766 5544
+
+Recent Payment:
+USD 1,249.99
+
+--------------------------------------------------------
+
+Customer: David Kimani
+Email: david_kimani@si.alueducation.com
+Temporary Email: david@@fake..com
+Phone: +44 20 7946 0958
+Website: https://www.example-company.co.uk/login?user=david
+Scheduled Call: 07:00
+
+Card:
+3782-822463-10005
+
+--------------------------------------------------------
+Social Media Notes
+--------------------------------------------------------
+
+Trending hashtags from campaign:
+#TechForGood #ALU2026 #FrontendDev #BuildInPublic
+
+--------------------------------------------------------
+Raw HTML Fragment Returned by Legacy Service
+--------------------------------------------------------
+
+<div class="user-card">
+    <h2>Account Alert</h2>
+    <p>Email us at security@alueducation.com</p>
+    <a href="https://secure.example.com/reset">Reset Password</a>
+</div>
+
+--------------------------------------------------------
+Potentially Malicious / Invalid Inputs
+--------------------------------------------------------
+
+<script>alert('hacked')</script>
+
+DROP TABLE users;
+
+Email Test:
+john..doe@gmail..com
+
+Fake Credit Card:
+1111-2222-3333
+
+Malformed URL:
+htp://not-valid
+
+Broken Time:
+25:99 PM
+
+Random Payload:
+../../etc/passwd
+
+Another suspicious entry:
+'; EXEC xp_cmdshell('dir'); --
+
+--------------------------------------------------------
+Finance Section
+--------------------------------------------------------
+
+Invoice Total: $4,850.75
+Pending Balance: EUR 3200
+Refund Issued: RWF 125000
+
+--------------------------------------------------------
+Additional Contacts
+--------------------------------------------------------
+
+support@alueducation.com
+careers@si.alueducation.com
+graduates@alumni.alueducation.com
+
+Emergency Numbers:
++250-780-123-999
++33 1 42 68 53 00
+
+--------------------------------------------------------
+END OF RESPONSE
+--------------------------------------------------------    
