@@ -1,0 +1,34 @@
+{
+    "phone_numbers": [
+        "+1 (202) 555-0188",
+        "+250 788 456 123",
+        "+44 20 7946 0958",
+        "+33 1 42 68",
+        "(202) 555-0188",
+        "(415) 555-2671",
+        "+250-780-123-999",
+        "+33 1 42 68 53 00"
+    ],
+    "hashtags": [
+        "#TechForGood",
+        "#ALU2026",
+        "#FrontendDev",
+        "#BuildInPublic"
+    ],
+    "ALU_emails": [
+        "support-team@alueducation.com",
+        "mbrown@alueducation.com",
+        "security@alueducation.com",
+        "support@alueducation.com",
+        "jane.doe@alumni.alueducation.com",
+        "sarah.n@alumni.alueducation.com",
+        "graduates@alumni.alueducation.com",
+        "admin@si.alueducation.com",
+        "david_kimani@si.alueducation.com",
+        "careers@si.alueducation.com"
+    ],
+    "credit_cards": [
+        "4532-1234-5678-9012",
+        "6011 9988 7766 5544"
+    ]
+}

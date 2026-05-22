@@ -1,6 +1,7 @@
 import re
+import json
 #Open and read the raw-text.txt file
-file = open("raw-text.txt", "r")
+file = open("input/raw-text.txt", "r")
 text = file.read()
 file.close()
 #1.Find all phone numbers in the text
@@ -43,3 +44,16 @@ credit_cards = []
 for pattern in credit_card_pattern:
     cards = re.findall(pattern, text)
     credit_cards.extend(cards)
+
+#Put the results in a dictionary and display them in a json file
+output = {
+    "phone_numbers": phone_numbers,
+    "hashtags": hashtags,
+    "ALU_emails": ALU_emails,
+    "credit_cards": credit_cards
+}
+json_file = open("output/sample-output.json", "w")
+json.dump(output, json_file, indent=4)
+json_file.close()
+
+print("Data has been extracted go and check the json file now")
