@@ -10,11 +10,11 @@ This project is a regex-based data extraction and validation system built with P
 
 The goal of this assignment is to demonstrate practical use of Regular Expressions (Regex) for real-world text processing, validation, and secure handling of sensitive data.
 
-
+---
 
 # Project Structure
 
-
+```bash
 alu-regex-data-extraction_Nzizadenilson/
 ├── input/
 │   └── raw-text.txt
@@ -23,9 +23,9 @@ alu-regex-data-extraction_Nzizadenilson/
 ├── output/
 │   └── sample-output.json
 └── README.md
+```
 
-
-
+---
 
 # Features
 
@@ -181,6 +181,9 @@ output/sample-output.json
         "1234-5678-9012-3456"
     ]
 }
+```
+
+---
 
 # Technologies Used
 
@@ -188,6 +191,7 @@ output/sample-output.json
 - Regular Expressions (`re` module)
 - JSON (`json` module)
 
+---
 
 # Notes
 
@@ -195,7 +199,7 @@ output/sample-output.json
 - The project focuses on regex extraction and validation logic rather than UI design.
 - Multiple regex patterns are used to support variations in real-world data formatting.
 
-
+---
 
 # Future Improvements
 
@@ -207,4 +211,6 @@ Possible future enhancements include:
 - Implementing stronger credit card validation (Luhn Algorithm)
 - Masking sensitive extracted data
 - Improving duplicate filtering
+
+---
 
