@@ -43,7 +43,14 @@ credit_card_pattern = [
 credit_cards = []
 for pattern in credit_card_pattern:
     cards = re.findall(pattern, text)
-    credit_cards.extend(cards)
+   
+    for card in cards:
+        if '-' in card:
+            secured_card = "****-****-****-" + card[-4:]
+        else:
+            secured_card = "**** **** ****" + card[-4:]
+        credit_cards.append(secured_card)
+        
 
 #Put the results in a dictionary and display them in a json file
 output = {
